@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="head">
+        <h1>Tic-tac-toe Game</h1>
+    </div>
+
+   <div style="display: flex;">
+    <div class="cell" id='1' onclick="play(1)"></div>
+    <div class="cell" id='2' onclick="play(2)"></div>
+    <div class="cell" id='3' onclick="play(3)"></div>
+</div>
+    <div style="display: flex;">
+    <div class="cell" id='4' onclick="play(4)"></div>
+    <div class="cell" id='5' onclick="play(5)"></div>
+    <div class="cell" id='6' onclick="play(6)"></div>
+</div>
+<div style="display: flex;">
+    <div class="cell" id='7' onclick="play(7)"></div>
+    <div class="cell" id='8' onclick="play(8)"></div>
+    <div class="cell" id='9' onclick="play(9)"></div>
+</div>
+   <div id="message"></div>
+   <button onclick="reset()">Play Again</button>
+    <script src="index.js"></script>
+</body>
+</html>
